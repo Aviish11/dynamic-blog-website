@@ -1,0 +1,14 @@
+footer{
+    text-align: center;
+    padding: auto;
+}
+
+button:hover{
+    background-color: beige;
+}
+
+button{
+    padding: 5px;
+    font-style: oblique;
+    background-color:darkorange
+}
