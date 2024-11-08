@@ -3,8 +3,38 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Homepage</title>
+    <script src="script.js" defer></script>
   </head>
   <body>
-    <h1>Homepage</h1>
+    <h1>Blog Page</h1>
+    <nav>
+      <ul>
+        <li><a href="#">Home</a></li>
+        <li><a href="#">About</a></li>
+        <li><a href="#">Contact</a></li>
+      </ul>
+    </nav>
+
+    <main>
+      <article>
+        <h2 id="load-post">Latest Blog Post</h2>
+      </article>
+
+      <button id="create-post">Create Post</button>
+      <button id="edit-post">Edit Post</button>
+      <button id="reload-btn">Reload page</button>
+
+      <aside>
+        <h3>Related Posts</h3>
+        <ul>
+          <li><a href="#">Another Post</a></li>
+          <li><a href="#">Previous Post</a></li>
+        </ul>
+      </aside>
+    </main>
+
+    <footer>
+      <p>&copy; 2024 My Blog</p>
+    </footer>
   </body>
 </html>
